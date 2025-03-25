@@ -1,6 +1,5 @@
 # National Heroes  
-# Nama Proyek
-Deskripsi singkat tentang proyek ini.
+Website ini menampilkan daftar-daftar pahlawan nasional yang ada pada API indonesia_national_heroes.json
 
 ## Endpoint
 - Menampilkan daftar Pahalwan:
