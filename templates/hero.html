@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ hero.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>{{ hero.name }}</h1>
+            <p><strong>Tahun Lahir:</strong> {{ hero.birth_year }}</p>
+            <p><strong>Tahun Wafat:</strong> {{ hero.death_year }}</p>
+            <p><strong>Keterangan:</strong> {{ hero.description }}</p>
+            <p><strong>Tahun Ditetapkan:</strong> {{ hero.ascension_year }}</p>
+            <a href="/">Kembali</a>
+        </div>
+    </div>
+</body>
+</html>
